@@ -35,3 +35,9 @@ li span {
 	float: right;
 	margin-right: 10px;
 }
+
+.addItem {
+	position: relative;
+	padding-bottom: 0px;
+	height: 30px;
+}
