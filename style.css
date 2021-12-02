@@ -28,3 +28,10 @@ li {
 	padding: 10px 0px;
 	margin-bottom: 5px;
 }
+
+li span {
+	cursor: pointer;
+	position: relative;
+	float: right;
+	margin-right: 10px;
+}
