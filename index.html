@@ -16,7 +16,7 @@
 			<ul>
 				<li ng-repeat="i in items">
 					{{i}}
-					<span>x</span>
+					<span ng-click="deleteItem($index)">x</span>
 				</li>
 			</ul>
 		</div>

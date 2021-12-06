@@ -9,4 +9,7 @@ angularList.controller('myListController', ($scope) => {
 			$scope.newItem = '';
 		}
 	};
+	$scope.deleteItem = (index) => {
+		$scope.items.splice(index, 1);
+	};
 });
