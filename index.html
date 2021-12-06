@@ -10,7 +10,8 @@
 			<h1>Angular List</h1>
 			<div class="addItem">
 				<input ng-model="newItem" placeholder="Add Item" class="addText" />
-				<button>Add</button>
+				<button ng-click="pushItem()">Add</button>
+				
 			</div>
 			<ul>
 				<li ng-repeat="i in items">
